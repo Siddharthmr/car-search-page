@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+button, select{
+  margin: 5px;
+  background-color: #F4FDFB;
+  border: 1px solid #18D4A3;
+  border-radius: 5px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.flex-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.car-container{
+  color: #373E47;
+  margin-top: 10px;
+  width: 60%;
+  background-color: #F4FDFB;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+}
+.car-img{
+  border-radius: 10px;
+  margin-right: 50px;
+}
+
+.info{
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-right: 20px;
+}
+p{
+  margin: 5px;
+}
+.active{
+  background-color: #18D4A3;
+}
+h1{
+  color:#18D4A3;
+}
