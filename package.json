@@ -1,7 +1,7 @@
 {
   "name": "car-search",
   "version": "0.1.0",
-  "homepage": "https://Siddharthmr.github.io/car-search-page",
+  "homepage": "https://siddharthmr.github.io/car-search-page",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
