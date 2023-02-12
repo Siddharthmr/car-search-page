@@ -10,9 +10,9 @@ import {
 } from "react-router-dom";
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename ={window.location.pathname || ''}>
   <Routes>
-    <Route path="/" basename ={window.location.pathname || ''} element={<App />}/>
+    <Route exact path="/" element={<App />}/>
   </Routes>
   </BrowserRouter>,
   document.getElementById('root')
