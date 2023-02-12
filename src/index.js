@@ -12,7 +12,7 @@ import {
 ReactDOM.render(
   <BrowserRouter>
   <Routes>
-    <Route path="/car-search-page/" element={<App />}/>
+    <Route path="/" basename ="/car-search-page" element={<App />}/>
   </Routes>
   </BrowserRouter>,
   document.getElementById('root')
